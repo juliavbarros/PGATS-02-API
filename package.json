@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "API REST para login, registro, consulta de usuários e transferências.",
   "main": "server.js",
-  "scripts": {
-    "test": "mocha 'test/**/*.test.js' --timeout 10000",
-    "start": "node server.js"
-  },
+  
+    "type": "module",
+    "scripts": {
+      "test": "mocha 'test/**/*.test.js' --timeout 10000"
+    }
+  ,
   "dependencies": {
     "chai": "^6.0.1",
     "express": "^4.18.2",
